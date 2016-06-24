@@ -11,14 +11,16 @@ public class Blip : MonoBehaviour
 
     void start()
     {
+        
         map = GetComponentInParent<MiniMap>();
         myRectTransform = GetComponent<RectTransform>();
     }
 
     void LateUpdate()
     {
-       Vector2 newPosition = map.TransformPosition(Target.position);
 
+        // volgt positie van target
+       Vector2 newPosition = map.TransformPosition(Target.position);
         myRectTransform.localPosition = newPosition;
     }
 }

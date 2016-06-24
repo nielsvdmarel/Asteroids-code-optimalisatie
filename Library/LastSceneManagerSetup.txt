@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Niels/NielsTestScene.unity
+- path: Assets/Niels Scenes/NielsTestScene.unity
   isLoaded: 1
   isActive: 1

@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="animController" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Assets\scripts\animController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="audioHolder" Collapsed="true">
+    <Position X="5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\scripts\audioHolder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="backgroudSound" Collapsed="true">
+    <Position X="6.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAgAAECAAQIAAAAAAAMAABAAAAAAgIAEAAAAQAAA=</HashCode>
+      <FileName>Assets\scripts\backgroudSound.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ButtonController" Collapsed="true">
+    <Position X="3.25" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Assets\scripts\ButtonController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Collisionentertopickup" Collapsed="true">
+    <Position X="12" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Assets\scripts\Collisionentertopickup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionSceneChange" Collapsed="true">
+    <Position X="13.75" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\scripts\CollisionSceneChange.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="headLaserScript" Collapsed="true">
+    <Position X="12" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\scripts\headLaserScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="imageChangeScript" Collapsed="true">
+    <Position X="3.25" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ACQAAAAAACAAAAAQAAAAgAAAAAAAAQAAAAAABgAAAAA=</HashCode>
+      <FileName>Assets\scripts\imageChangeScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="laserscript" Collapsed="true">
+    <Position X="8.5" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAABAACAAAAAAQAAAAAAAAAAAAAAJAAAABAAAAAA=</HashCode>
+      <FileName>Assets\scripts\laserscript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="laserShooting" Collapsed="true">
+    <Position X="10.25" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>BAQACgAAAGIAAFAAAAABABAwIoAAAAAIAAEABCAAAAA=</HashCode>
+      <FileName>Assets\scripts\laserShooting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="laserStopScript" Collapsed="true">
+    <Position X="12" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\scripts\laserStopScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="laserTextManager" Collapsed="true">
+    <Position X="13.75" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\scripts\laserTextManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="motherHealthUp" Collapsed="true">
+    <Position X="10.25" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAEAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\scripts\motherHealthUp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pickupUseScript" Collapsed="true">
+    <Position X="3.25" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAGgAAEAAAAAAAABAAAAQEQADAAAABQAQQEA=</HashCode>
+      <FileName>Assets\pickupUseScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerMouseControl" Collapsed="true">
+    <Position X="5" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAgAAAAggAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\scripts\PlayerMouseControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="playerMovement2" Collapsed="true">
+    <Position X="8.5" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\scripts\playerMovement2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fader" Collapsed="true">
+    <Position X="8.5" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAASAAAAAgIAAAAAIAAAAAAAAAAQCQAAAAAAA=</HashCode>
+      <FileName>Assets\prefabs\Enemy prefabs\Enemy 3\fonts\Fader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Initiate" Collapsed="true">
+    <Position X="5" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\prefabs\Enemy prefabs\Enemy 3\fonts\Initiate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Test" Collapsed="true">
+    <Position X="8.5" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAIAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Assets\prefabs\Enemy prefabs\Enemy 3\fonts\Test.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Blip" Collapsed="true">
+    <Position X="8.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAABAgAAAAICAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\scripts\Blip.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bulletCollision" Collapsed="true">
+    <Position X="10.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\scripts\bulletCollision.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulletMovement" Collapsed="true">
+    <Position X="12" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAUAAAAAACAAACEAAAAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Assets\scripts\BulletMovement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bulletsShooting" Collapsed="true">
+    <Position X="13.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAgAAACAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAA=</HashCode>
+      <FileName>Assets\scripts\bulletsShooting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CamerFollow" Collapsed="true">
+    <Position X="5" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAgAAAIAAQAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\scripts\CamerFollow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChangeScene" Collapsed="true">
+    <Position X="6.75" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAICAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\scripts\ChangeScene.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChangeScene1" Collapsed="true">
+    <Position X="8.5" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Assets\scripts\ChangeScene1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CHealthTest" Collapsed="true">
+    <Position X="10.25" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQACACAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Assets\scripts\CHealthTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyfaceM" Collapsed="true">
+    <Position X="3.25" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAEAIAAAQAAAiAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\scripts\EnemyfaceM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyMovement" Collapsed="true">
+    <Position X="5" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAgAIICARAAAAJBAEAAAEgAAAAYAAAQABAAAAAAA=</HashCode>
+      <FileName>Assets\scripts\EnemyMovement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="extaMovement" Collapsed="true">
+    <Position X="6.75" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACIgAIAAAAAAAAAAAQAAAUAJAAAAAAAAYAA=</HashCode>
+      <FileName>Assets\scripts\extaMovement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fading" Collapsed="true">
+    <Position X="10.25" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAgCAAAAQgAAAAAAAAAAQAAQAAIA=</HashCode>
+      <FileName>Assets\scripts\Fading.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="healthScript" Collapsed="true">
+    <Position X="13.75" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>gAQAAgAIACAAACCAAAEAAMAAgEIEIAABAQACAgAAACA=</HashCode>
+      <FileName>Assets\scripts\healthScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="laserbeamp" Collapsed="true">
+    <Position X="6.75" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\scripts\laserbeamp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiniMap" Collapsed="true">
+    <Position X="3.25" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\scripts\MiniMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MinimapFollowNoRotate" Collapsed="true">
+    <Position X="5" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\scripts\MinimapFollowNoRotate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="motherDamageScript" Collapsed="true">
+    <Position X="6.75" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Assets\scripts\motherDamageScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="motherHealthScript" Collapsed="true">
+    <Position X="8.5" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACIACAAAAAAAAAAAAAAAEAEAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Assets\scripts\motherHealthScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MoveForward" Collapsed="true">
+    <Position X="12" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\scripts\MoveForward.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyTimer" Collapsed="true">
+    <Position X="13.75" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAgAAAAAAQAAAAAAAAAAgARAEAAgAAAAA=</HashCode>
+      <FileName>Assets\scripts\MyTimer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerMovement" Collapsed="true">
+    <Position X="6.75" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAQAABAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\scripts\PlayerMovement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerMovementAst" Collapsed="true">
+    <Position X="10.25" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAiABACAAAEAACAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Assets\scripts\PlayerMovementAst.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerRespawnScript" Collapsed="true">
+    <Position X="12" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAUAAgAAACAAAAABAAAAAAABAEAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Assets\scripts\PlayerRespawnScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="randomspawn" Collapsed="true">
+    <Position X="13.75" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAIAAAAAAEAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Assets\scripts\randomspawn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="shieldAddon" Collapsed="true">
+    <Position X="3.25" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\scripts\shieldAddon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="speedpowerup" Collapsed="true">
+    <Position X="6.75" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Assets\scripts\speedpowerup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="waveScript" Collapsed="true">
+    <Position X="10.25" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AQSAAAEAAigAAAABBAAAQEAFAAEAISAAAElEBAAAAQo=</HashCode>
+      <FileName>Assets\scripts\waveScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="shieldScript" Collapsed="true">
+    <Position X="5" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAgAAAAACAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\scripts\shieldScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
