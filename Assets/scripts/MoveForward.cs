@@ -9,6 +9,9 @@ public class MoveForward : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        //zorgt dat de player vooruit kan met maxSpeed
+
         Vector3 pos = transform.position;
 
         Vector3 velocity = new Vector3(0, maxSpeed * Time.deltaTime, 0);

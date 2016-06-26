@@ -18,7 +18,7 @@ public class MyTimer : MonoBehaviour
     }
 
 
-    
+    //zorgt dat de text van de timer kan worden weergegeven
 
     public void StartTimer()
     {

@@ -5,6 +5,8 @@ public class MiniMap : MonoBehaviour
 {
     public Transform Target;
 
+    //zorgt dat de minimap camera de positite van de target volgt.
+
     public Vector2 TransformPosition(Vector3 position)
     {
         Vector3 offset = position - Target.position;

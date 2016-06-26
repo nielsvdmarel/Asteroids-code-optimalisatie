@@ -10,7 +10,7 @@ public class Test : MonoBehaviour {
 	
 	}
 	
-	
+	//zorgt voor een test button waarmee je de start van de scene fade kon laten beginnen (geen scene verandering!)
 	void OnGUI () {
 	    if (GUI.Button(new Rect(-100, 0, 0,0),""))
         {
