@@ -39,13 +39,16 @@ public class EnemyfaceM : MonoBehaviour {
         if (MoederBoord == null)
             return;
 
+        
         Vector3 dir = MoederBoord.position - transform.position;
         dir.Normalize();
 
+        //bepaald hoe groot de hoek is wat heb object moet draaien naar een ander object(target). 
         float zAngel = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg - 90;
         if (extraTurn) { zAngel += 180; }
         Quaternion desiredRot = Quaternion.Euler(0, 0, zAngel);
 
+        //zorgt voor de movement van de rotatie
         transform.rotation = Quaternion.RotateTowards ( transform.rotation, desiredRot , rotSpeed * Time.deltaTime);
 
         //testline

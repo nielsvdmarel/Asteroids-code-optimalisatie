@@ -11,7 +11,7 @@ public class Collisionentertopickup : MonoBehaviour{
     {
 
        
-
+        // laat het scherm weg faden met de kleur zwart
         Initiate.Fade(scene, Color.black, 0.5f);
 
 

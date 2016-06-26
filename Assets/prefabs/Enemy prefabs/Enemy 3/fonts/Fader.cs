@@ -14,14 +14,14 @@ public class Fader : MonoBehaviour {
 
 	void Start () {
 
-        print(fadeScene + "kut moment 1");
+        
 
     }
 	
 	
 	void OnGUI ()
     {
-        print(fadeScene + "kut moment 2");
+        // zorgt voor een pixel object dat het hele scherm enkele seconden doormiddel van een alpha laat faden
 
         if (!start)
             return;
@@ -37,6 +37,7 @@ public class Fader : MonoBehaviour {
             alpha = Mathf.Lerp(alpha, -0.1f, fadeDamp * Time.deltaTime);
         else
             alpha = Mathf.Lerp(alpha, 1.1f, fadeDamp * Time.deltaTime);
+
 
         if (alpha >= 1 && !isFadeIn)
         {

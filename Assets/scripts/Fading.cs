@@ -12,7 +12,8 @@ public class Fading : MonoBehaviour {
 
     void OnGui()
     {
-
+        //zorgt dat het faden start, met een bepaalde tijd.
+        //bepaalt texture van object dat ingefade wordt (fadeOutTexture)
         alpha += fadeDir * fadeSpeed * Time.deltaTime;
         alpha = Mathf.Clamp01(alpha);
 
@@ -22,13 +23,16 @@ public class Fading : MonoBehaviour {
     }
 
 
+    // beginnen van de fade
+
         public float BeginFade (int direction)
     {
+        
         fadeDir = direction;
         return (fadeSpeed);
 
     }
-
+    // stopt de fade (start start de fade out)
     void onLevelWasLoaded()
     {
         BeginFade(-1);
