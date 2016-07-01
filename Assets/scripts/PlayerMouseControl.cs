@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PlayerMouseControl : MonoBehaviour {
+public class PlayerMouseControl : MonoBehaviour
+{
 
     public float rotSpeed = 0.01f;
     private Vector2 oldMousePos;
@@ -9,18 +10,20 @@ public class PlayerMouseControl : MonoBehaviour {
     private bool stopmove;
 
     // Use this for initialization
-    void Start () {
-        
+    void Start()
+    {
 
-        
+
+
     }
-	
-	// Update is called once per frame
-	void Update () {
+
+    // Update is called once per frame
+    void Update()
+    {
         if (GameObject.Find("enemies").GetComponent<waveScript>().playercanmove)
         {
             Vector2 mousePos = Input.mousePosition;
-       
+
             Vector2 dir = Camera.main.ScreenToWorldPoint(mousePos) - transform.position;
             dir.Normalize();
 
@@ -31,7 +34,7 @@ public class PlayerMouseControl : MonoBehaviour {
             transform.rotation = Quaternion.RotateTowards(transform.rotation, desiredRot, rotSpeed * Time.deltaTime);
 
             oldMousePos = mousePos;
-            
+
         }
     }
 }

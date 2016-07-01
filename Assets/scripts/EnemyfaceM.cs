@@ -12,15 +12,15 @@ public class EnemyfaceM : MonoBehaviour {
 
     void Start ()
     {
-        if (!hunter)
+        if (!hunter)//als het object niet de hunter is
         {
-            if (this.GetComponent<EnemyMovement>().drone || hunter)
+            if (this.GetComponent<EnemyMovement>().drone || hunter)//als het object een drone of hunter is
             {
-                target = GameObject.Find("Player");
+                target = GameObject.Find("Player");//target de player
             }
-            else if (target == null)
+            else if (target == null)//anders als het target niets is
             {
-                target = GameObject.Find("MoederBoord");
+                target = GameObject.Find("MoederBoord");//target het moederboord
             }
         }
     }

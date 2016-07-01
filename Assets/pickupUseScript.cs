@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class pickupUseScript : MonoBehaviour {
+public class pickupUseScript : MonoBehaviour
+{
 
     private bool laser;
     private bool speed;
@@ -10,32 +11,34 @@ public class pickupUseScript : MonoBehaviour {
     private bool haveAPickup;
 
 
-    void Start () {
+    void Start()
+    {
         laser = false;
         speed = false;
         LaserSelected = false;
 
     }
-	
-	// Update is called once per frame
-	void Update () {
+
+    // Update is called once per frame
+    void Update()
+    {
         print(LaserSelected);
         if (Input.GetMouseButtonDown(1))
         {
-            if(laser && LaserSelected)
+            if (laser && LaserSelected)
             {
                 GameObject.Find("muzzlepoint").GetComponent<laserShooting>().laserStart();
                 laser = false;
             }
-            else if(speed && !LaserSelected)
+            else if (speed && !LaserSelected)
             {
                 GameObject.Find("TextTimer").GetComponent<MyTimer>().resetTimer();
                 GameObject.Find("TextTimer").GetComponent<MyTimer>().StartTimer();
                 speedup(speednum);
                 speed = false;
             }
-            
-            
+
+
         }
         if (Input.GetAxis("Mouse ScrollWheel") > 0 || Input.GetAxis("Mouse ScrollWheel") < 0)
         {
@@ -43,13 +46,13 @@ public class pickupUseScript : MonoBehaviour {
         }
         booleanChecks();
 
-        if(GameObject.Find("Boss") != null)
+        if (GameObject.Find("Boss") != null)
         {
             laser = false;
         }
 
     }
-
+    //setten van de bools
     public void makeLaserTrue()
     {
         laser = true;

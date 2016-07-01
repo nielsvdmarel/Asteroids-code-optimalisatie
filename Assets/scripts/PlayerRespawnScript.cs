@@ -16,16 +16,13 @@ public class PlayerRespawnScript : MonoBehaviour
     void Start()
     {
         audioSourceComponent = this.GetComponent<AudioSource>();
-
-
-
         playerRigidbody = this.GetComponent<Rigidbody2D>();
-        if (spawn.x == 0 && spawn.y == 0)
+        if (spawn.x == 0 && spawn.y == 0)//als je het op nul houd
         {
-            spawn = GameObject.Find("MoederBoord").transform.position;
+            spawn = GameObject.Find("MoederBoord").transform.position;//respawnd de player in het moederboord
             this.GetComponent<Collider2D>().isTrigger = true;
         }
-        this.transform.position = spawn;
+        this.transform.position = spawn;//start op het respawnpoint
 
     }
 
@@ -34,22 +31,21 @@ public class PlayerRespawnScript : MonoBehaviour
 
     }
 
-    void OnTriggerEnter2D(Collider2D other)
+    void OnTriggerEnter2D(Collider2D other)//bij het raken van een trigger collider 
     {
-        if (other.tag == "enemy")
+        if (other.tag == "enemy")//als je een enemy raakt
         {
-            if (!shield) {
+            if (!shield)
+            {//als je geen shield hebt respawn je op het moederboord
                 if (spawn.x == GameObject.Find("MoederBoord").transform.position.x && spawn.y == GameObject.Find("MoederBoord").transform.position.y)
                 {
                     this.GetComponent<Collider2D>().isTrigger = true;
                     audioSourceComponent.PlayOneShot(playerDieClip, 1F);
-                    
                 }
-                playerRigidbody.velocity = Vector2.zero;
-                //print("collision found");
+                playerRigidbody.velocity = Vector2.zero;//zet de player stil
                 this.transform.position = spawn;
             }
-            else
+            else//als je wel een shield hebt heb je geen shield meer
             {
                 shield = false;
                 GameObject.Find("shield").GetComponent<shieldScript>().shield = false;
@@ -59,6 +55,6 @@ public class PlayerRespawnScript : MonoBehaviour
     }
 
 }
-    
+
 
 
